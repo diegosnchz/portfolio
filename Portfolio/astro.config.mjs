@@ -19,6 +19,7 @@ export default defineConfig({
   build: {
     inlineStylesheets: "auto",
   },
+  site: "https://diegosanchez.vercel.app/", // Reemplaza con tu actual dominio de Vercel
   server: {
     host: true,
     port: 4321,
